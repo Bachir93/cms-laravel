@@ -1,0 +1,109 @@
+/* LAYOUT *************************************************************************************************************/
+
+html{
+    color: #333;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #7f5af0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 0 2rem;
+}
+
+nav img{
+    width: 8rem;
+    padding-top: 0.8rem;
+}
+
+main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+}
+
+header h2{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+footer{
+    background-color: #7f5af0;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+/* SECTION ************************************************************************************************************/
+
+section h3{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3rem;
+    font-weight:bold;
+}
+
+section h3 a{
+    color: #333;
+}
+
+section h3 span{
+    font-weight:normal;
+    color: #444;
+}
+
+article h4{
+    font-size: 1.5rem;
+}
+article h6{
+    font-weight: bold;
+}
+@media (max-width:550px){
+    .card-content h4, p{
+        font-size: 1rem;
+    }
+}
+article .card-info{
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+}
+
+.card.horizontal.small .card-image{
+    max-height: 80%;
+}
+
+.card.horizontal.small .card-image img{
+    margin-top: 20%;
+}
+
+.card.horizontal.casa{
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.row p{
+    width: 90%;
+    margin-top: 2rem;
+}

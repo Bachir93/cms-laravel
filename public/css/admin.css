@@ -1,0 +1,193 @@
+/* LAYOUT *************************************************************************************************************/
+
+html{
+    color: #333;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #7f5af0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 0 2rem;
+}
+
+nav img{
+    width: 8rem;
+    padding-top: 0.8rem;
+}
+
+main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 3rem;
+    margin: 1rem 0 0 0;
+}
+
+header h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+footer{
+    background-color: #7f5af0;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+/* SECTION ************************************************************************************************************/
+
+section h3{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3rem;
+    font-weight:bold;
+}
+
+section h3 a{
+    color: #333;
+}
+
+section h3 span{
+    font-weight:normal;
+    color: #444;
+}
+
+.btn{
+    background-color: #7f5af0;
+}
+
+.btn:hover{
+    background-color: #333;
+}
+
+article h4{
+    font-size: 1.5rem;
+}
+
+article .card-info{
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+}
+
+.card.horizontal.small .card-image{
+    max-height: 70%;
+}
+
+.card.horizontal.small .card-image img{
+    margin-top: 20%;
+}
+
+.card.horizontal.casa{
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.card.horizontal.admin h4{
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+.card.horizontal.admin strong{
+    margin-left: 0.5rem;
+}
+
+.card.horizontal.admin img{
+    height: 3rem;
+    margin: 1.5rem 0 0 2rem;
+}
+
+.toast{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.toast strong{
+    padding: 0 0.2rem;
+}
+
+form p{
+    padding-left: 0.8rem;
+}
+
+/* PAGINADOR */
+
+.paginado nav{
+    background: none;
+    margin-top: 2rem;
+    line-height: normal;
+}
+
+.pagination li{
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.1rem;
+    border: 1px solid rgb(30,30,30);
+    border-radius: unset;
+}
+
+.pagination li a{
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(100,100,100);
+}
+
+.pagination li a:hover{
+    color: rgb(30,30,30);
+    font-weight: bold;
+    background: none;
+}
+
+.pagination li.active{
+    background: rgb(30,30,30);
+    color: #fff;
+}
+
+.pagination li.disabled {
+    border: 1px solid #BBB;
+    color: #BBB;
+}
+
+.pagination li.active {
+    background-color: rgb(30,30,30);
+    color: #FFF;
+}
+.panelAdmi{
+    margin-top: 2rem;
+    width: 90%;
+}
+.panelAdmi p{
+    font-size: 1rem;
+}
+.panelAdmi ul{
+    margin: 2rem 0 2rem 0;
+}
+.panelAdmi li{
+    margin-top: 1rem;
+}
